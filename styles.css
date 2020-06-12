@@ -1,0 +1,115 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 20px;
+    z-index: 100;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-left: 35px;
+}
+h3{
+    text-align: center;
+}
+.inline{
+    display: inline-block;
+}
+.upload{
+    margin-left: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.none{
+    text-decoration: none;
+    cursor: pointer;
+}
+.paddingtop{
+    padding-top: 55px;
+}
+.ideasearch{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #F6F6F6;
+    border-color: #F6F6F6;
+}
+.sidenav {
+    width: 130px;
+    position: fixed;
+    top: 150px;
+    left: 30px;
+    background: #eee;
+    border-radius: 15px;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    color: #2196F3;
+  }
+  
+  .sidenav a:hover {
+    color: #2196F3;
+  }
+  main{
+      margin-left: 160px;
+  }
+  hr{
+      width: 95%;
+      height: 2px;
+      color: black;
+      background-color: black;
+      padding-top: 0;
+      margin-top: 0;
+  }
+  .grey{
+    background-color: #F6F6F6;
+    width: 290px;
+    height: 390px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.grey p {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grey img{
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+}
